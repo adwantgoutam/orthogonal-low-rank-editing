@@ -4,7 +4,7 @@ This repository contains the implementation for "Subspace Collisions in Knowledg
 
 ## Overview
 
-This repository contains the implementation for the paper **"Subspace Collisions in Knowledge Editing: Orthogonal Low-Rank Updates for Scalable, Stable Model Edits"**, submitted to IEEE Access.
+This repository contains the implementation for the paper **"Subspace Collisions in Knowledge Editing: Orthogonal Low-Rank Updates for Scalable, Stable Model Edits"**
 
 This research addresses the instability of existing low-rank knowledge editing methods (like ROME and MEMIT) when scaled to hundreds or thousands of edits. We identify "subspace collisions"—overlapping update directions in the model's representation space—as a primary cause of this instability.
 
@@ -12,8 +12,6 @@ The code provided here implements **Orthogonal Low-Rank Editing**, a novel appro
 1.  **Enforces Orthogonality**: Ensures new knowledge updates are geometrically separated from existing ones.
 2.  **Preserves Stability**: Maintains low condition numbers and high effective rank even as the number of edits scales.
 3.  **Scales Effectively**: Demonstrates robust performance from 1 to 50+ edits where naive methods fail.
-
-The experiments included in this codebase replicate the results presented in the paper, including comparisons with baselines and detailed geometric analysis.
 
 ## Installation
 
