@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Specific
+data/
+models/
+results/
+*.json
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Redundant/Analysis Scripts
+scripts/update_paper_with_results.py
+scripts/setup_small_model.py
+scripts/debug_*.py
+scripts/test_*.py
+scripts/run_actual_*.py
+scripts/run_real_*.py
+scripts/run_simple_*.py
+scripts/quick_*.py
+scripts/aggregate_*.py
+scripts/merge_*.py
+scripts/generate_*.py
+scripts/validate_*.py
+scripts/*.sh
+scripts/*.md
+scripts/setup_*.py
+# Keep core scripts
+!scripts/run_experiments.py
+!scripts/plot_results_with_error_bars.py
