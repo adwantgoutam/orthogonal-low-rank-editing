@@ -3,7 +3,7 @@
 **Author**: gadwant
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
 This repository contains the implementation for "Subspace Collisions in Knowledge Editing: Orthogonal Low-Rank Updates for Scalable, Stable Model Edits".
 
