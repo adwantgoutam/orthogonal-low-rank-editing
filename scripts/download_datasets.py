@@ -8,9 +8,9 @@ import requests
 from pathlib import Path
 from typing import Dict, List
 
-# Dataset URLs (using HuggingFace datasets or direct links)
-COUNTERFACT_URL = "https://raw.githubusercontent.com/rome-mem/counterfact/main/data/counterfact.json"
-ZSRE_URL = "https://raw.githubusercontent.com/rome-mem/zsre/main/data/zsre.json"
+# Dataset URLs (hosted by ROME/MEMIT authors)
+COUNTERFACT_URL = "https://rome.baulab.info/data/dsets/counterfact.json"
+ZSRE_URL = "https://rome.baulab.info/data/dsets/zsre_mend_eval.json"
 
 def download_file(url: str, output_path: Path) -> bool:
     """Download a file from URL."""

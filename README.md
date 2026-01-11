@@ -104,11 +104,11 @@ result = evaluator.evaluate_edit(
 
 ### CounterFact
 
-Download from: [CounterFact Dataset](https://github.com/rome-mem/counterfact)
+Download from: [CounterFact Dataset (ROME website)](https://rome.baulab.info/data/dsets/counterfact.json)
 
 ### zsRE
 
-Download from: [zsRE Dataset](https://github.com/rome-mem/zsre)
+Download from: [zsRE Dataset (ROME website)](https://rome.baulab.info/data/dsets/zsre_mend_eval.json)
 
 ## Experiments
 
